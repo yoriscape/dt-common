@@ -17,4 +17,10 @@
 <resources>
     <bool name="call_recording_enabled">true</bool>
     <integer name="call_recording_audio_source">4</integer>
+
+    <!-- Whether the device enable the standalone (SA) mode of 5G NR.-->
+    <bool name="config_telephony5gStandalone">true</bool>
+
+    <!-- Whether the device enable the non-standalone (NSA) mode of 5G NR.-->
+    <bool name="config_telephony5gNonStandalone">true</bool>
 </resources>
